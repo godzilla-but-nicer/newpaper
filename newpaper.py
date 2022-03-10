@@ -42,6 +42,9 @@ preamble = f"""\\documentclass[12pt]{{article}}
 % author notes
 \\newcommand{{\\note}}[1]{{\\textcolor{{red}}{{[#1]}}}}
 
+% if you want to hide your in text notes comment previous uncomment this
+% \\newcommand{{\\note}}[1]{{}}
+
 \\title{{{' '.join(args.title)}}}
 \\author{{{' '.join(args.author)}}}
 \\date{{\\today}}"""
