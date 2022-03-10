@@ -24,17 +24,3 @@ The simplest usage is passing just the project directory path and nothing else
 The full `--help` out put is below.
 
 ```
-usage: newpaper.py [-h] [-a AUTHOR [AUTHOR ...]] [-t TITLE [TITLE ...]] projpath
-
-Set up a new project directory for a paper in LaTeX
-
-positional arguments:
-  projpath              name for the created directory
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -a AUTHOR [AUTHOR ...], --author AUTHOR [AUTHOR ...]
-                        Name(s) of the authors
-  -t TITLE [TITLE ...], --title TITLE [TITLE ...]
-                        Title of the paper
-```
