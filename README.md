@@ -20,7 +20,3 @@ The simplest usage is passing just the project directory path and nothing else
 ```
 > newpaper.py testpaper -a godzilla-but-nicer -t A Script For LaTeX Projects
 ```
-
-The full `--help` out put is below.
-
-```
